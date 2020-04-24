@@ -1,0 +1,2 @@
+rootProject.name='DeathGrips'
+include ':app'

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_effect"
+    android:divider="@android:drawable/bottom_bar"
+    android:orientation="horizontal"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/taskItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:padding="5dp"
+        android:textSize="26sp" />
+    <!--android:drawableStart="@drawable/ic_mail_task_foreground"
+        android:drawableLeft="@drawable/ic_mail_task_foreground"
+        -->
+</LinearLayout>
